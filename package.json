@@ -1,6 +1,7 @@
 {
   "name": "spotify-clone",
   "version": "0.1.0",
+  "homepage": "https://github.com/Erik-Ryman/music-app.git",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +12,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .next"
   },
-  "homepage": "https://github.com/Erik-Ryman/music-app.git",
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slider": "^1.1.2",
