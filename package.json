@@ -1,7 +1,7 @@
 {
   "name": "spotify-clone",
   "version": "0.1.0",
-  "homepage": "https://github.com/Erik-Ryman/music-app.git",
+  "homepage": "https://Erik-Ryman.github.io/music-app",
   "private": true,
   "scripts": {
     "dev": "next dev",
