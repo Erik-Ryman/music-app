@@ -9,8 +9,8 @@
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next"
+    "predeploy": "npm run build && next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
