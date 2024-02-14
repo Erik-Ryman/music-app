@@ -15,10 +15,8 @@ const nextConfig = {
   experimental: {
     outputFileTracing: true,
   },
-  // Add this configuration
-  output: {
-    fileTraceDirectory: ".next/output-file-traces",
-  },
+
+  output: "export",
 };
 
 export default nextConfig;
